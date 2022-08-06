@@ -136,6 +136,9 @@ body._lock {
     margin-bottom: calc(20px + 80 * (100vw - 320px) / 1500);
   }
 }
+.portfolio__container {
+  min-width: 0;
+}
 .portfolio__title {
   font-weight: 700;
   font-size: 36px;
@@ -174,6 +177,7 @@ body._lock {
 }
 
 .swiper {
+  min-width: 0;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -264,4 +268,7 @@ body._lock {
   text-align: center;
   color: #E58D35;
   cursor: pointer;
+}
+.item-slider__link:hover {
+  text-decoration: underline;
 }

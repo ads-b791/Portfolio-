@@ -174,7 +174,27 @@ body._lock {
   font-size: 28px;
   line-height: 124.5%;
   margin-bottom: 65px;
+  display: inline-block;
+  color: #648d34;
 }
+@media (max-width: 1820px) {
+	.potrfolio__subtitle {
+	  font-size: calc(24px + 4 * (100vw - 320px) / 1500);
+	}
+ }
+.js{
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 124.5%;
+	margin-bottom: 65px;
+	color: #E58D35;
+	margin-left: 20px;
+}
+@media (max-width: 1820px) {
+	.js {
+	  font-size: calc(24px + 4 * (100vw - 320px) / 1500);
+	}
+ }
 
 .swiper {
   min-width: 0;
